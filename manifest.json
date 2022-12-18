@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Handy Pachka Extension",
+    "version": "1.0",
+    "description": "Some set of adjustments for pachka web messenger",
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "commands": {
+        "run-foo": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "Command+Shift+L"
+          },
+          "description": "Run \"foo\" on the current page."
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://app.pachca.com/*" ],
+            "css": ["thread.css"], 
+            "js": [ "app.js" ]
+        }
+    ]
+ }

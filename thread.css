@@ -1,0 +1,14 @@
+div#root nav+div+div {
+    width: 550px;
+    max-width: 550px;
+}
+
+div#root nav+div+div > div {
+    width: 550px;
+    max-width: 550px;
+}
+
+div#root nav+div+div > div > div {
+    width: 550px;
+    max-width: 550px;
+}
