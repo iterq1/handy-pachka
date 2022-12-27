@@ -10,7 +10,7 @@
 
 <img alt="Подключение распакованного расширения" src="https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png?auto=format&w=800" alt="drawing" style="width:400px;"/>
 
-_[докуметация Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)_
+_[документация Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)_
 
 
 ## Что умеет сейчас:
